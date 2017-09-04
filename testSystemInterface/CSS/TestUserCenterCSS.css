@@ -3,6 +3,11 @@
   /*  height: 45em;*/
     margin: 0em;
 }
+
+h3{
+    width: 100%;
+}
+
 .userB{ /* 个人功能按键*/
    /* width:8em;
     font-size: 1em;
@@ -24,6 +29,7 @@
     background: #aee9ee;
     margin-bottom: 1px;
     color: #a199c7;
+    border-radius: 25px;
 }
 .userB:hover{/* 鼠标在上面时*/
     color: black;
@@ -39,7 +45,7 @@
     padding: 0;
 }
 
-.pageTitle{
+.pageTitle{/*页面显示的大标题*/
     font-size: xx-large;
 }
 
@@ -83,8 +89,4 @@
     padding: 0;
     margin: 0;
 
-}
-
-.mainView{
-    padding: 0;
 }
