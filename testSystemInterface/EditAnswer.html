@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <title>答题页面</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/EditAnswerCss.css" type="text/css">
+</head>
+<body>
+<div id="pageInfo">
+    <h1 class="pageTitle">考试答题</h1>
+</div>
+<div id="questionListDiv">
+    <p>题目列表</p>
+    <ul id="questionList">
+        <li><a href="">题目1</a></li>
+        <li><a href="">题目2</a></li>
+        <li><a href="">题目3</a></li>
+        <li><a href="">题目4</a></li>
+        <li><a href="">题目5</a></li>
+    </ul>
+</div>
+<br/>
+<div id="questionContextDiv">
+    <!--这里是主观题的大致界面-->
+    <div class="subQuestion">
+        <p class="subQuestionContext">这里是题目的主要内容:<br/>现准备为某银行开发一个信用卡管理系统 CCMS，该系统的基本功能为： 
+            1. 信用卡申请。非信用卡客户填写信用卡申请表，说明所要申请的信用卡类型及申请 者的基本信息，提交 CCMS。如果信用卡申请被银行接受，
+            CCMS 将记录该客户的基本信 息，并发送确认函给该客户，告知客户信用卡的有效期及信贷限额；否则该客户将会收到 一封拒绝函。
+            非信用卡客户收到确认函后成为信用卡客户。</p>
+        <br/>
+        <label>这里是答题区域</label>
+        <textarea id="userAnswer"></textarea>
+    </div>
+
+
+    <div id="answerFunctionDiv"><!--答案功能板块 -->
+        <button class="btn btn-default answerButton">添加答案</button>
+        <button class="btn btn-default answerButton">编辑答案</button>
+        <button class="btn btn-default answerButton">删除答案</button>
+    </div><br/>
+    <button type="button" class="btn btn-primary btn-lg btn-block" id="PaperSubmit">试卷提交</button>
+</div>
+<div id="answerDiv">
+
+</div>
+</body>
+</html>

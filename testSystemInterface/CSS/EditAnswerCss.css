@@ -1,0 +1,38 @@
+#questionListDiv{/*题目的列表*/
+    border:2px solid;
+    border-radius:25px;
+    background: #2fc7c4;
+   /*float: left;*/
+   /*float: none;*/
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+li{/*单独的列表项*/
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#questionContextDiv{/*显示题目的内容*/
+    margin-top:5em;
+    margin-left:20%;
+    margin-right:20%;
+    border-radius: 20px;
+    background: snow;
+}
+#userAnswer{/*答案所在区域*/
+    /*text-align: right;*/
+    width: 100%;
+    height: 20em;
+}
+
+#answerFunctionDiv{/*功能键所在区域*/
+    text-align: right;
+}
+
+.answerButton{;/*具体到功能按键*/
+    padding: 3px;
+    margin-right: 2em;
+    background: #eff4fb;
+}
