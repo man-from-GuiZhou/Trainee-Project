@@ -45,20 +45,44 @@
 
 .CenterDiv{ /* 面板并排设置*/
     padding-top: 0;
-    margin-top: 0%;
     display: table-cell;
     /*padding: 10em;*/
 }
+
+.buttonFunction{/*页面中心功能按键*/
+    width:13em;
+    height: 13em;
+    border-style: none;
+    margin-left: 20em;
+    margin-top: 5em;
+}
+
+/*考试设置按键*/
+#buttonTest{
+    background-image: url(picture/TestUserCenter/Test.svg);
+
+    background-size: cover;
+    text-align: left;
+}
+
+/*分数查询按键*/
+#buttonSelect{
+    background-image: url(picture/TestUserCenter/Select.svg);
+    text-align: left;
+    background-size: contain;
+    margin-left: 3em;
+}
+
 .navDiv{
     width: 90.5em;
-
     padding: 0;
     /*padding: 0%;*/
-    margin-top: 0%;
 }
 
 #functionDiv{
     padding: 0;
+    margin: 0;
+
 }
 
 .mainView{
