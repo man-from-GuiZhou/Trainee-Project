@@ -1,0 +1,24 @@
+#tips{    /*页面名字和按键 */
+   margin-left: 45%;
+    margin-bottom: 6%;
+}
+
+#select{/* 查询按键*/
+    margin-left: 5%;
+}
+
+.ScoreMessage{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+thead{
+    text-align: center;
+}
+
+#tableName{
+    margin-left: 40%;
+    font-size: 3em;
+}
+

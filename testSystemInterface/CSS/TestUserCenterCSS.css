@@ -1,0 +1,66 @@
+.userPanel{ /* 个人信息面板 */
+    width:10em;
+  /*  height: 45em;*/
+    margin: 0em;
+}
+.userB{ /* 个人功能按键*/
+   /* width:8em;
+    font-size: 1em;
+    padding: auto;*/
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    /*position: relative;*/
+    cursor: pointer;
+    width:8em;
+    text-align: center;
+    background: #aee9ee;
+    margin-bottom: 1px;
+    color: #a199c7;
+}
+.userB:hover{/* 鼠标在上面时*/
+    color: black;
+}
+
+.buttonZone{ /* 整体按键区域*/
+    position: relative;
+    margin-bottom:1% ;
+    margin-top: 25em;
+}
+
+.myPanelBody{
+    padding: 0;
+}
+
+.pageTitle{
+    font-size: xx-large;
+}
+
+.CenterDiv{ /* 面板并排设置*/
+    padding-top: 0;
+    margin-top: 0%;
+    display: table-cell;
+    /*padding: 10em;*/
+}
+.navDiv{
+    width: 90.5em;
+
+    padding: 0;
+    /*padding: 0%;*/
+    margin-top: 0%;
+}
+
+#functionDiv{
+    padding: 0;
+}
+
+.mainView{
+    padding: 0;
+}
