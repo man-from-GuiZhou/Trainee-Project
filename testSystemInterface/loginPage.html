@@ -10,21 +10,22 @@
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="CSS/loginPageCss.css">
+    <link rel="stylesheet" type="text/css" href="CSS/StandardCSS.css">
 </head>
-<body id="loginBody">
+<body>
 <div >
-<h1 id="systemName">笔试考试系统</h1>
-
-    <div id="inputDiv">
-        <b><h2>请登录</h2></b>
-        <form action=""> <!--基本的登录页面-->
+<h1 class="page-header">笔试考试系统</h1>
+    <div id="loginDiv">
+        <form action="" role="form"> <!--基本的登录页面-->
             <div id="inputMes">
-            账号<input type="text" name="userId"><br/>
-                <br/>
-            密码<input type="password" name="passWord"><br/>
-                <br/>
-                <input type="submit">
-                <input type="reset">
+                <p class="tips">账号</p>
+                <input type="text" name="userId" class="form-control numInput" ><br/>
+                <p class="tips">密码</p>
+                <input type="password" name="passWord" class="form-control numInput"><br/>
+                <div id="buttonDiv">
+                <input type="submit" class="btn btn-default functionButton">
+                <input type="reset" class="btn btn-default functionButton">
+                </div>
             </div>
         </form>
     </div>
