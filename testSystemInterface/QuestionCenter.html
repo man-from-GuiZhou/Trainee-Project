@@ -3,8 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="CSS/QuestionCenterCSS.css">
     <link rel="stylesheet" type="text/css" href="CSS/StandardCSS.css">
+    <link rel="stylesheet" type="text/css" href="CSS/QuestionCenterCSS.css">
     <title>考试试题中心</title>
 </head>
 <body>
@@ -39,16 +39,21 @@
         </table>
         </div>
         <div id="addQuestionDiv">
-            <label>选择题目类型</label>
+            <label class="tips">选择题目类型</label>
             <form role="form">
                 <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control" id="questionType">
                         <option>主观题</option>
                         <option>客观题(选择题)</option>
                     </select>
                 </div>
             </form>
         </div>
+        <button id="addQuestion" class="btn btn-default">添加题目</button>
+        <div class="searchDiv">
+            <input  type="text" id="questionId" placeholder="输入题目条件" class="form-control">
+        </div>
+        <button id="searchButton" class="btn btn-default">搜索</button>
     </div>
 </body>
 </html>

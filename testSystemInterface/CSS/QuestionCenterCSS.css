@@ -39,22 +39,24 @@ body{
     background: #3399CC;
 }
 
+/*添加题目区域*/
 #addQuestion{
-    margin-left: 1em;
-    margin-right: 10em;
+    float:left;
+    margin-left: 6em;
     width: 10em;
-}
-
-#tdButton{
-
+    margin-top:1.96%;
 }
 
 #questionEditDiv{/*题目内容修改所在区域*/
-    margin-top: 10em;
-    background: #99CC33;
     border-radius: 25px;
     width: 80%;
-    margin-left: 20em;
+    border:solid;
+    color: white;
+    margin-left:10%;
+    margin-right: 10%;
+    background: #99CC33;
+    font-size: 15px;
+    font-family: Microsoft YaHei, serif;
 }
 
 h2.libInfo{/*题库信息*/
@@ -73,16 +75,48 @@ input{
 }
 
 #addQuestionDiv{/*下拉选择框所在位置*/
-    width: 40em;
+    width: 30em;
     float: left;
+    padding-right: 7%;
 }
 
-.questionText{
-    width: 70em;
+.searchDiv{/*搜索题目区域*/
+    float: left;
+    margin-left: 10%;
+    margin-top: 2em;
+    padding-bottom: 0em;
+    display: inline;
+}
+
+.questionText{ /*题目内容文本和答案文本框*/
+    border:solid;
+    width: 78%;
     height: 30em;
-    color: black;
+    color: white;
+    border-radius: 10px;
+    background: #333366;
+    font-family: KaiTi;
+    font-size: larger;
 }
 
 .questionPosition{
     display: inline;
+}
+
+.tips{/**/
+    margin-left: 38%;
+}
+
+#searchButton/*搜索按键*/{
+    width: 8em;
+    margin-top: 1.89%;
+    margin-right: 23%;
+}
+
+#questionId{
+    width: 12em;
+}
+
+#questionType{
+    margin-left:53.6%;
 }

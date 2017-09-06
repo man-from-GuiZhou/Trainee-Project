@@ -3,6 +3,10 @@
     width:10em;
   /*  height: 45em;*/
     margin: 0em;
+    font-size: 5%;
+    color: white;
+    background:#99CC33;
+    border-bottom-left-radius: 25px;
 }
 
 h3{
@@ -44,6 +48,8 @@ h3{
 
 .myPanelBody{
     padding: 0;
+    width: 80%;
+    margin-left:10%
 }
 
 .pageTitle{/*页面显示的大标题*/
@@ -60,8 +66,9 @@ h3{
     width:13em;
     height: 13em;
     border-style: none;
-    margin-left: 20em;
+    margin-left: 2em;
     margin-top: 5em;
+    margin-right: 10%;
 }
 
 /*考试设置按键*/
@@ -81,7 +88,7 @@ h3{
 }
 
 .navDiv{
-    width: 90.5em;
+    width: 177%;;
     padding: 0;
     /*padding: 0%;*/
 }
@@ -89,5 +96,5 @@ h3{
 #functionDiv{
     padding: 0;
     margin: 0;
-
+    background: #3399CC;
 }

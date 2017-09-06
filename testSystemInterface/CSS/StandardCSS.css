@@ -8,9 +8,9 @@ h1{
 }
 
 select{
-    width: 20px;
-    margin-left: 12.2em;
-    margin-right: 10em;
+    width: auto;
+    margin-left: 12.2%;
+    margin-right: 10%;
     font-family:YouYuan ;
     font-size: 50px;
 }
@@ -20,7 +20,7 @@ button{
 }
 
 body{
-    background: #66CCFF;
+    background: #3399CC;
 }
 
 caption{/*表格列表*/
@@ -32,4 +32,8 @@ caption{/*表格列表*/
 label{
     color:white;
     font-size: larger;
+}
+
+p{
+    color:white;
 }

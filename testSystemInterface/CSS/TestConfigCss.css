@@ -1,6 +1,12 @@
 #TestCondition{ /*考试条件所在区域*/
- margin-top: 15%;
- margin-left: 40%;
- width: 40em;
- /*border-style: dashed;*/
+  margin-left: 1%; /*border-style: dashed;*/
+ width: 60%;
+ padding-left: 29%;
+ padding-right: 5%;
+ margin-top: 7%;
+ font-family: STZhongsong;
+}
+
+#StartTest{
+ margin-left: 12%;
 }
