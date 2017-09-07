@@ -44,7 +44,7 @@ table{
 }
 
 label{/*在页面上用来显示用户名*/
-    background: white;
+    background: black;
     padding:2px;
     font-family: sans-serif;
 }

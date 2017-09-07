@@ -1,6 +1,5 @@
 #tips{    /*页面名字和按键 */
-   margin-left: 45%;
-    margin-bottom: 6%;
+
 }
 
 #select{/* 查询按键*/
@@ -18,7 +17,12 @@ thead{
 }
 
 #tableName{
-    margin-left: 40%;
     font-size: 3em;
+}
+
+.tableDiv{/*分数表所在范围*/
+    background: white;
+    margin-top: 10%;
+    border-radius: 50px;
 }
 

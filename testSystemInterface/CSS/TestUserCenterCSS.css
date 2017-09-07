@@ -1,80 +1,36 @@
 /*该样式表对应全部操作中心*/
-.userPanel{ /* 个人信息面板 */
-    width:10em;
-  /*  height: 45em;*/
-    margin: 0em;
-    font-size: 5%;
-    color: white;
-    background:#99CC33;
-    border-bottom-left-radius: 25px;
-}
 
-h3{
-    width: 100%;
-}
 
-.userB{ /* 个人功能按键*/
-   /* width:8em;
-    font-size: 1em;
-    padding: auto;*/
-    display: inline-block;
-    padding: 5px 10px 6px;
-    color: #fff;
-    text-decoration: none;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
-    border-bottom: 1px solid rgba(0,0,0,0.25);
-    /*position: relative;*/
-    cursor: pointer;
-    width:8em;
-    text-align: center;
-    background: #aee9ee;
-    margin-bottom: 1px;
-    color: #a199c7;
-    border-radius: 25px;
-}
 .userB:hover{/* 鼠标在上面时*/
-    color: black;
+    color: white;
 }
 
 .buttonZone{ /* 整体按键区域*/
-    position: relative;
+    margin-left: 65%
+    /*position: relative;
+
     margin-bottom:1% ;
-    margin-top: 25em;
+    margin-top: 25em;*/
 }
 
-.myPanelBody{
-    padding: 0;
-    width: 80%;
-    margin-left:10%
-}
 
-.pageTitle{/*页面显示的大标题*/
+/*页面显示的大标题*/
+.pageTitle{
     font-size: xx-large;
+    font-family: YouYuan;
+    color: black;
 }
 
-.CenterDiv{ /* 面板并排设置*/
-    padding-top: 0;
-    display: table-cell;
-    /*padding: 10em;*/
-}
 
 .buttonFunction{/*页面中心功能按键*/
     width:13em;
     height: 13em;
     border-style: none;
-    margin-left: 2em;
-    margin-top: 5em;
-    margin-right: 10%;
 }
 
 /*考试设置按键*/
 #buttonTest{
     background-image: url(picture/TestUserCenter/Test.svg);
-
     background-size: cover;
     text-align: left;
 }
@@ -87,14 +43,48 @@ h3{
     margin-left: 3em;
 }
 
-.navDiv{
-    width: 177%;;
-    padding: 0;
-    /*padding: 0%;*/
-}
 
 #functionDiv{
     padding: 0;
     margin: 0;
     background: #3399CC;
 }
+
+/*用户信息*/
+.userInfo{
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    /*border:solid;
+    border-color: white;*/
+    color: black;
+    background: #99CC33;
+}
+
+#UserText{
+    margin-right:70%;
+    font-family: STHeiti Light;
+    font-size: larger;
+}
+/*两个大型按键*/
+.imgButton{
+
+}
+/*两个小按键*/
+.myButton{
+    width: 70%
+}
+
+#pageCore{ /*标题、用户信息与主要功能按键都在这里*/
+    text-align: center;
+    border: solid;
+    border-color: #99CC33;
+    margin-left: 29%;
+    margin-right: 29%;
+    border-radius: 36px;
+    background: white;
+}
+
+
+/*CSS的提示功能并没有引入外键api，而是基于本身的效果*/
+

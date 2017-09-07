@@ -7,14 +7,16 @@
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/StandardCSS.css">
     <link rel="stylesheet" type="text/css" href="CSS/userScoreSelect.css">
 </head>
 <body>
    <div id="tips">
-   <h1>分数查询</h1>
+   <h1 class="page-header">分数查询</h1>
    </div>
     <div class="ScoreMessage">
-        <table class="table table-striped">
+        <div class="tableDiv">
+        <table class="table table-bordered">
             <caption id="tableName">考试分数表</caption>
             <thead>
                 <tr>
@@ -41,6 +43,7 @@
                 </tr>
             </tbody>
         </table>
+        </div>
         <button id="select" class="btn btn-success btn-lg">查询</button>
     </div>
 </body>
