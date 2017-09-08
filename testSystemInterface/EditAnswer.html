@@ -14,16 +14,16 @@
 </head>
 <body>
 <div id="pageInfo">
-    <h1 class="pageTitle">考试答题</h1>
+    <h1 class="pageTitle" class="page-header">考试答题</h1>
 </div>
 <div id="questionListDiv">
-    <p>题目列表</p>
+    <p class="listTitle">题目列表</p>
     <ul id="questionList">
-        <li><a href="">题目1</a></li>
-        <li><a href="">题目2</a></li>
-        <li><a href="">题目3</a></li>
-        <li><a href="">题目4</a></li>
-        <li><a href="">题目5</a></li>
+        <li><a href="">题目1</a><span></span></li>
+        <li><a href="">题目2</a><span></span></li>
+        <li><a href="">题目3</a><span></span></li>
+        <li><a href="">题目4</a><span></span></li>
+        <li><a href="">题目5</a><span></span></li>
     </ul>
 </div>
 <br/>
@@ -35,7 +35,6 @@
             CCMS 将记录该客户的基本信 息，并发送确认函给该客户，告知客户信用卡的有效期及信贷限额；否则该客户将会收到 一封拒绝函。
             非信用卡客户收到确认函后成为信用卡客户。</p>
         <br/>
-        <label>这里是答题区域</label>
         <textarea id="userAnswer"></textarea>
     </div>
 
@@ -45,7 +44,7 @@
         <button class="btn btn-default answerButton">编辑答案</button>
         <button class="btn btn-default answerButton">删除答案</button>
     </div><br/>
-    <button type="button" class="btn btn-primary btn-lg btn-block" id="PaperSubmit">试卷提交</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block submitButton" id="PaperSubmit">试卷提交</button>
 </div>
 <div id="answerDiv">
 

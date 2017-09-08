@@ -1,11 +1,17 @@
 #resultInfo{/*表格所在区域*/
     text-align: center;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: white;
+    margin-top: 7%;
+    font-size: larger;
+    border-radius: 25px;
+    font-family: Microsoft YaHei;
 }
 
 caption{
-    margin-left:45%
+    margin-left:4%;
+    font-family: Microsoft YaHei;
 }
 h1{
     text-align: center;

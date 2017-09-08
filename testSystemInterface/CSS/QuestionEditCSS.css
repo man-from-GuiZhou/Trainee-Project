@@ -31,8 +31,8 @@ td{
     text-align: center;
 }
 h1{
-    padding-left: 1%;
-    /*font-family: STCaiYun;*/
+    padding-left: 8%;
+    font-family: STCaiYun;
     color: black;
 }
 
@@ -62,7 +62,7 @@ body{
 }
 
 body{
-    /*background: white;*/
+    background: white;
 }
 
 h2.libInfo{/*题库信息*/
@@ -73,7 +73,11 @@ h2.libInfo{/*题库信息*/
 }
 
 #questionEdit{/*题目编辑表单*/
-   color: white;
+    color: white;
+}
+
+span{
+    margin-right: 3%;
 }
 
 input{
@@ -99,9 +103,10 @@ p{
     font-family: YouYuan;
 }
 
-#questionContextDiv p, #questionAnswerDiv p
+#questionContextDiv p,#questionAnswerDiv p
 {
     margin-top: 2%;
+    margin-right:70% ;
 }
 
 /*题目内容文本和答案文本框*/
@@ -120,7 +125,7 @@ p{
 /*分值设置和按键的位置*/
 .questionPosition{
     display: inline-table;
-    padding-left: 8%;
+    padding-left: 20%;
 }
 
 /*按键区域的位置*/

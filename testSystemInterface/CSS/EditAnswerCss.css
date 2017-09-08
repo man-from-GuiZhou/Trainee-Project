@@ -1,17 +1,33 @@
 #questionListDiv{/*题目的列表*/
     border:2px solid;
     border-radius:25px;
-    background: #2fc7c4;
+   /* background: #2fc7c4;
    /*float: left;*/
    /*float: none;*/
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    float: left;
+    color: white;
+}
+
+#questionList{
+    color: white;
+}
+
+a{
+    color: white;
 }
 
 li{/*单独的列表项*/
     display: inline-block;
     margin-right: 1em;
+    color: white;
+}
+
+.listTitle{/**/
+    font-size: 19px;
+    font-family: Microsoft YaHei;
 }
 
 #questionContextDiv{/*显示题目的内容*/
@@ -35,4 +51,12 @@ li{/*单独的列表项*/
     padding: 3px;
     margin-right: 2em;
     background: #eff4fb;
+}
+
+.submitButton{
+    background: #66CC66;
+}
+
+.submitButton:hover{
+    background: black;
 }

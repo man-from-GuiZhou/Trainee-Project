@@ -1,3 +1,6 @@
+
+/*UserCenter页面中包含了阅卷用户的中心页面*/
+
 .PageInfoTitle{/*页面标题信息所在区域*/
     text-align: left;
     background: #99CC33;
@@ -5,6 +8,7 @@
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    border: solid;
 }
 h1{/*显示在网页首页的标题*/
     margin-left: auto;
@@ -14,7 +18,7 @@ h1{/*显示在网页首页的标题*/
 }
 
 #ToPerusaList{/*试卷列表所在区域*/
-
+    border-radius: 25px;
     background: #ffffff;
     padding-bottom: 1em;
 }
@@ -31,7 +35,7 @@ body{
     margin-right:10%;
     margin-top:5%;
     margin-right:5%;
-    background: #666666;
+    /*background: #666666;*/
 }
 
 table{
@@ -75,7 +79,7 @@ th{
         font-size: larger;
 }
 
-.userInfoDiv{/*显示阅卷用户的基本信息*/
+.userInfoDiv{/*显示阅卷用户的基本信息的区域*/
     padding-top: 4px;
     text-align: right;
     background: #333366;
@@ -83,6 +87,11 @@ th{
     border-top-left-radius: 0;
     padding-right: 10em;
     margin-left: 30em;
+    border-bottom: solid;
+    border-left: solid;
+
+    border-top: solid;
+    border-color: white;
 }
 
 .userInfo{/*用户信息文本*/
@@ -92,5 +101,9 @@ th{
 p{
     font-size: larger;
     font-family: Microsoft YaHei;
+}
+
+caption{
+    color: black;
 }
 
