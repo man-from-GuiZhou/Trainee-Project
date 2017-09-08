@@ -1,0 +1,29 @@
+/*所有内容所在区域*/
+#pageBody{
+    border: solid;
+    border-color: white;
+    border-radius: 100px;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    margin-bottom: 11.6%;
+    padding-bottom: 20%;
+}
+
+span{
+    margin-right:2%;
+    margin-left:2%;
+    width: 100%;
+}
+
+a button{
+    background: #99CC33;
+}
+
+body{
+    /*设计背景渐变*/
+    /*线性渐变*/
+    /*background: linear-gradient(60deg, #3399cc,white);*/
+    /*径向渐变*/
+    /*background:radial-gradient(#3399CC,white);*/
+}
