@@ -25,6 +25,11 @@ h1{
     margin-right: 21%;
 }
 
+/*前往注册页面*/
+#toResgister{
+    margin-left: 37%;
+}
+
 .tips{/*提示账号和密码的提示*/
     margin-left: 30%;
     font-family:SimSun ;

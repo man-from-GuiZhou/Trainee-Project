@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/testSystemInterface/CSS/EditAnswerCss.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testSystemInterface/CSS/QuestionCenterCSS.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testSystemInterface/CSS/QuestionEditCSS.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testSystemInterface/CSS/StandardCSS.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testSystemInterface/CSS/SystemAdminCenter.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testSystemInterface/CSS/loginPageCss.css" charset="GBK" />
+  </component>
+</project>
