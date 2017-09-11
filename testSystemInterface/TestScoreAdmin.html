@@ -5,6 +5,7 @@
     <title>笔试分数管理</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/StandardCSS.css">
+    <link rel="stylesheet" type="text/css" href="CSS/TestScoreAdminCSS.css">
 </head>
 <body>
 <div id="pageBody">
@@ -14,13 +15,33 @@
             <caption></caption>
             <thead>
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th>考试用户</th>
+                    <th>考试类型</th>
+                    <th>考试职位</th>
+                    <th>分数</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>XXX</td>
+                    <td>XXX</td>
+                    <td>XXX</td>
+                    <td>XXX</td>
+                </tr>
+                <tr id="totalInfo">
+                    <td>XXX</td>
+                    <td>XXX</td>
+                    <td>XXX</td>
+                    <td>XXX</td>
+                </tr>
+            </tbody>
         </table>
+        <div id="functionDiv">
+        <input type="search" id="userName" class="form-control searchInput" placeholder="用户姓名">
+        <input type="search" id="testTyep" class="form-control searchInput" placeholder="考试类型">
+            <input type="search" id="testJob" class="form-control searchInput" placeholder="考试职位">
+            <button id="searchButton" class="btn btn-default">搜索</button>
+        </div>
     </div>
 </div>
 </body>

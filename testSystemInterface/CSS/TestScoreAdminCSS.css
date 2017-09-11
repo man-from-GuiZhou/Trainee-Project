@@ -1,0 +1,27 @@
+#pageBody{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid;
+    color: white;
+    padding: 1%;
+    margin-top: 6%;
+    border-radius: 50px;
+}
+
+table{
+    border-color: #66CC66;
+    border-radius: 25px;
+    background: white;
+    color: black;
+}
+
+thead{
+    font-size: larger;
+    font-family: STZhongsong;
+}
+
+.searchInput{
+    width:25%;
+    margin-left:38%
+}
+
