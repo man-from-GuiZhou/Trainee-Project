@@ -1,4 +1,15 @@
 TestUserCenter为用户中心
 userScoreSelect为分数查询
 loginPage为登录
+EditAnswer为答题页面
+PaperExamerCenter为阅卷用户中心页面
+PaperSubmitFeedBack为提交试卷后的反馈页面
+QuestionEdit为题目编辑页面
+QuestionCenter为题目中心
+QuestionLibCenter为题库中心，同时也是题库管理员登录后的页面
+Register为注册页面
+SystemAdminCenter为系统管理员中心
+TestConfig为考试条件设置页面，用户在这里设置考试类型和目标职位
+TestUserCenter为用户中心，用户登录后从这里进行考试和分数查询
+userScoreSelect用户分数查询部分
 Css文件为“网页同名+CSS”文件

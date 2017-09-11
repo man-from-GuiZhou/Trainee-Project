@@ -1,0 +1,44 @@
+/*页面主体所在区域*/
+#tableDiv{
+    padding-left:2%;
+    padding-right:2%;
+    margin-top:6%;
+    border: solid;
+    border-color: white;
+    border-radius: 25px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+/*添加用户按键*/
+#addUser{
+    font-size: larger;
+    font-family: STHupo;
+}
+
+/*提交更改按键*/
+#upData{
+    float: left;
+    font-size: larger;
+    font-family: STHupo;
+    margin-left:30% ;
+}
+
+caption{
+    color: #FFFFFF;
+}
+
+thead{
+    background: white;
+    font-size: larger;
+    font-family: YouYuan;
+}
+
+tbody{
+    background: white;
+}
+
+.myTable{
+    border: solid;
+    border-color: #66CC66;
+}

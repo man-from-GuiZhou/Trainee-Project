@@ -1,12 +1,15 @@
 /*所有内容所在区域*/
 #pageBody{
+
     border: solid;
     border-color: white;
     border-radius: 100px;
     margin-left:30%;
     margin-right: 30%;
+
     margin-top: 7%;
     padding-bottom: 2%;
+
 }
 
 span{

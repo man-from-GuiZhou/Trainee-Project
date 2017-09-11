@@ -1,0 +1,25 @@
+#pageBody{
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top:6%;
+    background: #3399CC;
+    border: solid;
+    border-color: #66CC66;
+    border-radius: 50px;
+    height:auto;
+    margin-bottom: 2px;
+}
+
+body{
+    background: white;
+}
+
+caption{
+    color: white;
+}
+
+.myTable{
+    font-size: larger;
+    color: white;
+    font-family: YouYuan;
+}

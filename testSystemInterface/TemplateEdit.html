@@ -1,0 +1,42 @@
+<!--修改单一模板的详细信息-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <title>模板添加修改</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/StandardCSS.css">
+    <link rel="stylesheet" type="text/css" href="CSS/TemplateEditCSS.css">
+</head>
+<body>
+<div id="pageBody">
+<h1>试卷模板修改</h1>
+    <div id="formDiv">
+        <form  role="form">
+        <div class="form-group">
+            <input type="hidden" value="">
+        </div>
+        <div class="form-group">
+            <label>试卷类型</label>
+            <input type="number" class="form-control myInput" id="testpage_type" placeholder="试卷的考试类型">
+        </div>
+        <div class="form-group">
+            <label>客观题数</label>
+            <input type="number" class="form-control myInput" id="objective_QNU" placeholder="试卷中应该出现的客观题数量">
+        </div>
+        <div class="form-group">
+            <label>主观题数</label>
+            <input type="number" class="form-control myInput" id="subjective_QNU" placeholder="试卷中应该出现的主观题数量">
+        </div>
+        <div class="form-group">
+            <label>目标职位</label>
+            <input type="text" class="form-control myInput" id="testpage_job" placeholder="该试卷对应的职位">
+        </div>
+        <input type="submit" class="btn btn-default" value="确认">
+        </form>
+    </div>
+</div>
+</body>
+</html>

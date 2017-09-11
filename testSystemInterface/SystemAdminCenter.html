@@ -1,3 +1,4 @@
+<!--系统管理员用户中心-->
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -6,16 +7,27 @@
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/StandardCSS.css">
     <link rel="stylesheet" type="text/css" href="CSS/SystemAdminCenter.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div id="pageBody">
     <h1 class="page-header">系统管理中心</h1>
-    <div class="functionDiv">
         <p class="tips">选择需要进行管理的功能</p>
         <a href=""><button class="btn btn-default">用户管理</button></a>
         <a href=""><button class="btn btn-default">日志管理</button></a>
-        <a href=""><button class="btn btn-default">笔试数据管理</button></a>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">笔试数据管理
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <a href="TestConfigAdmin.html">笔试结构管理</a>
+                </li>
+                <li>
+                    <a href="">用户考试分数管理</a>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
 </body>
 </html>

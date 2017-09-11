@@ -1,0 +1,41 @@
+<!--管理用户的权限与用户增删的界面-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+    <title>用户管理</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/StandardCSS.css">
+    <link rel="stylesheet" type="text/css" href="CSS/UserAdminCSS.css">
+</head>
+<body>
+<div id="bodyDiv">
+    <h1>用户管理</h1>
+    <div id="tableDiv">
+        <form>
+            <table class="table table-bordered myTable" id="userTable">
+                <caption>系统用户列表</caption>
+                <thead>
+                <tr>
+                    <th>用户id</th>
+                    <th>用户名</th>
+                    <th>用户权限</th>
+                    <th>删除选项</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><span><input type="number"></span></td>
+                    <td><button class="btn btn-default">删除用户</button></td>
+                </tr>
+                </tbody>
+            </table>
+            <input id="upData" type="submit" class="btn btn-default" value="保存修改">
+        </form>
+        <a href="Register.html"><button id="addUser" class="btn btn-default">添加用户</button></a>
+    </div>
+</div>
+</body>
+</html>
