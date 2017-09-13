@@ -59,8 +59,12 @@ td{
     font-family: STZhongsong;
 }
 
+td.libTd{
+
+}
+
 .tdFunction{/*进入题库功能键所在的区域*/
-    width: 0.05%;
+    width: 0.9%;
     padding: 0px;
 }
 
